@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.NavBar {
+    display: flex;
+    width: 100%;
+    height: 160px;
+    background-color: #080808;
+    border-bottom: 1px solid white;
+}
+.NavBar1{
+  padding-top: 65px;
+}
+.NavBar2{
+  padding-top: 65px;
+}
+.NavBar1 a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+}
+.NavBar2 a{
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding-left: 130px;
+  font-family: 'Jost', sans-serif;
+  text-transform: uppercase;
+}
+  .NavBar a:hover {
+      color:#C7A17A;
+}
+.logo{
+  padding-top: 30px;
+  padding-left: 137px;
+}
+

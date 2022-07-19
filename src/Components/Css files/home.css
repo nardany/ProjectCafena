@@ -1,0 +1,21 @@
+.homepage{
+  background-image: url(../../Image/homebackground.jfif);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 600px;
+}
+.homeh1{
+    color: white;
+    font-family: "Bebas Neue", cursive;
+    font-size: 100px; 
+    font-weight: 200;
+    padding-top: 120px;
+    padding-left: 10px;
+}
+.homep1{
+    color: gray;
+    font-family: 'Jost', sans-serif;
+    padding-left: 10px;
+    font-size: 19px;
+}
