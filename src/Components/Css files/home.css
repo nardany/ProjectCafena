@@ -19,3 +19,233 @@
     padding-left: 10px;
     font-size: 19px;
 }
+.page2{
+    width: 100%;
+    min-height: 500px;
+    background-color: hwb(0 0% 100%);
+    display: flex;
+    justify-content: space-around;
+}
+.photo1{
+    width: 400px;
+    min-height: 350px;
+    background-image: url(../../Image/onephoto.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    border-top: 3px solid rgb(65, 44, 61);
+}
+.photo2{
+    width: 400px;
+    min-height: 350px;
+    background-image: url(../../Image/twophoto.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    border-top: 3px solid rgb(65, 44, 61);
+}
+.photo3{
+    width: 400px;
+    min-height: 350px;
+    background-image: url(../../Image/treephoto.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    border-top: 3px solid rgb(65, 44, 61);
+}
+.number{
+    color: #C7A17A;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.title{
+    font-size: 35px;
+    font-weight: 200;
+    color: white;
+    font-family:"Bebas Neue", cursive ;
+    margin-left: 10px;
+}
+.textphoto  {   
+    font-family:'Jost', sans-serif ;
+    color: #00fff7;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.page3{
+    border-top: 2px solid aqua;
+    width: 100%;
+    min-height: 650px;
+    background-color: hwb(0 0% 100%);
+    display: flex;
+}
+.page3img{
+    width: 600px;
+    background-image: url(../../Image/homefour.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    margin-top: 120px;
+    margin-left: 25px;
+    background-blend-mode:  
+}
+.page3form{
+    margin-top: 120px;
+    width: 650px ;
+    height: 450px;
+    background-color: #212529;
+}
+.page3p1{
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 80px;
+    margin-left: 100px;
+    font-size: "Bebas Neue", cursive;
+    color: white;
+    font-size: 14px;
+    background-color: #C7A17A;
+    display: inline-block;
+}
+.page3title{
+    margin-left: 100px;
+    color: white;
+    font-family: "Bebas Neue", cursive;
+    font-size: 55px;
+    font-weight: 200;
+}
+.page3p2{
+    margin-left: 100px;
+    color: #A7A7A7;
+}
+.page3p3{
+    margin-left: 100px;
+    color: #A7A7A7;
+}
+.page4{
+    width: 100%;
+    min-height: 650px;
+    background-color:hwb(0 0% 100%);
+    border-top: 1px solid wheat;
+}
+.page4text{
+    padding-top: 25px;
+}
+.page4p{
+    text-align: center;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 48%;
+    background-color:#C7A17A;
+    padding: 2px 12px 2px 12px;
+    border-radius: 5px 5px 5px 5px;
+}
+.page4tittle{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family:"Bebas Neue", cursive ;
+}
+.page4menu{
+    width: 100%;
+    min-height: 560px;
+    background-color: red;
+}
+.page4coffee1{
+    width: 100%;
+    min-height:180px ;
+    margin-top: 20px;
+    background-color: yellow;
+}
+.page4coffee2{
+    width: 100%;
+    min-height:180px ;
+    margin-top: 20px;
+    background-color: black;
+}
+.page4coffee3{
+    width: 100%;
+    min-height:180px ;
+    margin-top: 20px;
+    background-color: blue  ;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1115px) {
+    .page2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .photo1{
+        margin-top: 20px;
+    }
+    .photo2{
+        margin-top: 20px;
+    }
+    .photo3{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 816px) {
+    .photo1{
+        width: 500px;
+    }
+    .photo2{
+        width: 500px;
+    }
+    .photo3{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 495px) {
+ .homeh1{
+    font-size:80px ;
+    text-align: center;
+    padding-left: 5px;
+ }
+}
+
+@media screen and (max-width: 1110px) {
+    .page3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .page3img{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    .page3form{
+        margin-top: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    .page3form p{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .page3form h1{
+        font-size: 65px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 631px){
+    .page3form p{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .page3form h1{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+}

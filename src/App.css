@@ -1,30 +1,35 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 .NavBar {
-    display: flex;
-    width: 100%;
-    height: 160px;
-    background-color: #080808;
-    border-bottom: 1px solid white;
+  display: flex;
+  width: 100%;
+  min-height: 160px;
+  background-color: #080808;
+  border-bottom: 1px solid white;
 }
-.NavBar1{
+
+.NavBar1 {
   padding-top: 65px;
 }
-.NavBar2{
+
+.NavBar2 {
   padding-top: 65px;
 }
+
 .NavBar1 a {
-    font-size: 17px;
-    text-decoration: none;
-    color: white;
-    padding-left: 50px;
-    font-family: 'Jost', sans-serif;
-    text-transform: uppercase;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding-left: 50px;
+  font-family: 'Jost', sans-serif;
+  text-transform: uppercase;
 }
-.NavBar2 a{
+
+.NavBar2 a {
   font-size: 17px;
   text-decoration: none;
   color: white;
@@ -32,11 +37,22 @@
   font-family: 'Jost', sans-serif;
   text-transform: uppercase;
 }
-  .NavBar a:hover {
-      color:#C7A17A;
+
+.NavBar a:hover {
+  color: #C7A17A;
 }
-.logo{
+
+.logo {
   padding-top: 30px;
   padding-left: 137px;
 }
 
+@media screen and (max-width:1300px) {
+  .NavBar1 {
+    display: none;
+  }
+
+  .NavBar2 {
+    display: none;
+  }
+}
