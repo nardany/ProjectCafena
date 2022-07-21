@@ -246,11 +246,10 @@ h1{
 }
 .page6form input{
     color: white;
-    width: 80vh;
+    width: 45vw;
     background-color:#09090D ;
     padding: 20px;
     margin-top: 25px;
-    
     border: 1px solid rgb(68, 54, 75) ;
 }
 

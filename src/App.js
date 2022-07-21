@@ -16,6 +16,7 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <div className="NavBar">
+            <div className='NavBarContainer'>
             <div className="NavBar1">
               <Link to="/">Home</Link>
               <Link to="/about">About </Link>
@@ -29,6 +30,7 @@ function App() {
               <Link to="/pages">Pages</Link>
               <Link to="/shop">Shop </Link>
               <Link to="/contact">Contact</Link>
+            </div>
             </div>
           </div>
           <Routes>
