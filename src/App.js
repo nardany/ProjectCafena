@@ -1,13 +1,13 @@
 import './App.css';
 import { BrowserRouter,Routes, Route, Link } from "react-router-dom";
-import Logo from "./Image/cafeanalogo.png"
-import Home from "./Components/home"
-import About from "./Components/about"
-import Menu from "./Components/menu"
-import Reservation from "./Components/reservation" 
-import Pages from "./Components/pages"
-import Shop from "./Components/shop"
-import Contact from "./Components/contact"
+import Logo from "./Assets/cafeanalogo.png"
+import Home from "./Components/Home/home"
+import About from "./Components/About/about"
+import Menu from "./Components/Menu/menu"
+import Reservation from "./Components/Reservation/reservation" 
+import Pages from "./Components/Pages/pages"
+import Shop from "./Components/Shop/shop"
+import Contact from "./Components/Contact/contact"
 
 
 function App() {

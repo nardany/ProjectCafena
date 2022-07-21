@@ -1,5 +1,11 @@
+p{
+    font-family: 'Jost', sans-serif;
+}
+h1{
+    font-family: "Bebas Neue", cursive;
+}
 .homepage{
-  background-image: url(../../Image/homebackground.jfif);
+  background-image: url(./../../Assets/homebackground.jfif);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -7,7 +13,6 @@
 }
 .homeh1{
     color: white;
-    font-family: "Bebas Neue", cursive;
     font-size: 100px; 
     font-weight: 200;
     padding-top: 120px;
@@ -15,7 +20,6 @@
 }
 .homep1{
     color: gray;
-    font-family: 'Jost', sans-serif;
     padding-left: 10px;
     font-size: 19px;
 }
@@ -29,7 +33,7 @@
 .photo1{
     width: 400px;
     min-height: 350px;
-    background-image: url(../../Image/onephoto.jfif);
+    background-image: url(../../Assets/onephoto.jfif);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 120px;
@@ -38,7 +42,7 @@
 .photo2{
     width: 400px;
     min-height: 350px;
-    background-image: url(../../Image/twophoto.jfif);
+    background-image: url(../../Assets/twophoto.jfif);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 120px;
@@ -47,7 +51,7 @@
 .photo3{
     width: 400px;
     min-height: 350px;
-    background-image: url(../../Image/treephoto.jfif);
+    background-image: url(../../Assets/treephoto.jfif);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 120px;
@@ -62,17 +66,14 @@
     font-size: 35px;
     font-weight: 200;
     color: white;
-    font-family:"Bebas Neue", cursive ;
     margin-left: 10px;
 }
 .textphoto  {   
-    font-family:'Jost', sans-serif ;
     color: #00fff7;
     font-weight: 700;
     margin-left: 10px;
 }
 .page3{
-    border-top: 2px solid aqua;
     width: 100%;
     min-height: 650px;
     background-color: hwb(0 0% 100%);
@@ -80,13 +81,12 @@
 }
 .page3img{
     width: 600px;
-    background-image: url(../../Image/homefour.jpeg);
+    background-image: url(../../Assets/homefour.jpeg);
     background-size: cover;
     background-position: center;
     height: 450px;
     margin-top: 120px;
     margin-left: 25px;
-    background-blend-mode:  
 }
 .page3form{
     margin-top: 120px;
@@ -99,7 +99,6 @@
     border-radius: 5px 5px 5px 5px;
     margin-top: 80px;
     margin-left: 100px;
-    font-size: "Bebas Neue", cursive;
     color: white;
     font-size: 14px;
     background-color: #C7A17A;
@@ -108,7 +107,6 @@
 .page3title{
     margin-left: 100px;
     color: white;
-    font-family: "Bebas Neue", cursive;
     font-size: 55px;
     font-weight: 200;
 }
@@ -122,59 +120,119 @@
 }
 .page4{
     width: 100%;
-    min-height: 650px;
+    min-height: 600px;
     background-color:hwb(0 0% 100%);
-    border-top: 1px solid wheat;
+    display: flex;
+}
+.page4 h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 200;
+}
+.page4 p {
+    color: #A7A7A7;
+    font-size: 20px;
 }
 .page4text{
-    padding-top: 25px;
+    margin-left: 140px;
+    margin-top: 170px;
 }
-.page4p{
-    text-align: center;
+.page4img{
+    width: 300px;
+    height:400px;
+    margin-left: 100px;
+    margin-top: 60px;
+    opacity: 0.7;
+    transition: 1s  ;
+}
+.page4img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.page5{
+    background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../Assets/page5background.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 500px;
+    padding-top: 50px;
+}  
+.page5tittle{
+  padding-left: 500px;
+}
+.page5tittle p{
     color: white;
+    background-color:#C7A17A ;
     display: inline-block;
-    font-size: 18px;
-    font-weight: 300;
-    margin-left: 48%;
-    background-color:#C7A17A;
-    padding: 2px 12px 2px 12px;
+    padding: 0px 15px 0px 15px;
     border-radius: 5px 5px 5px 5px;
+    margin-left: 103px;
+    font-size: 15px;
 }
-.page4tittle{
+.page5tittle h1{
+    color: white;
+    font-size: 55px;
+}
+.page5png{
+    padding-left: 170px;
+}
+.page5text p{
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+}
+.page5people{
+    padding-top: 35px;
+    padding-left: 35px;
+}
+.page5logo{
+    padding-left: 48%;
+}
+.p1{
+    font-size: 20px;
     color: white;
     text-align: center;
-    font-size: 60px;
-    font-family:"Bebas Neue", cursive ;
 }
-.page4menu{
-    width: 100%;
-    min-height: 560px;
-    background-color: red;
-}
-.page4coffee1{
-    width: 100%;
-    min-height:180px ;
-    margin-top: 20px;
-    background-color: yellow;
-}
-.page4coffee2{
-    width: 100%;
-    min-height:180px ;
-    margin-top: 20px;
-    background-color: black;
-}
-.page4coffee3{
-    width: 100%;
-    min-height:180px ;
-    margin-top: 20px;
-    background-color: blue  ;
+.p2{
+    font-size: 18px;
+    color: #C7A17A;
+    text-align: center;
 }
 
 
 
 
+@media screen and (max-width: 1190px) {
+    .page4img{
+        padding-top: 50px;
+    }
+}
 
+@media screen and (max-width: 1000px) {
+    .page4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+   
 
+@media screen and (max-width: 380px) {
+    .page4img{
+        margin-right:55px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+        .page4text{
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        .page4img{
+            margin-left: 55px;
+            margin-top: 15px;
+        }
+}
 
 
 @media screen and (max-width: 1115px) {
@@ -247,5 +305,8 @@
     .page3form h1{
         font-size: 30px;
         margin-left: 10px;
+    }
+    .page3img{
+        margin-top: 15px;
     }
 }
