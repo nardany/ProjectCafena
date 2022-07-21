@@ -75,23 +75,25 @@ h1{
 }
 .page3{
     width: 100%;
-    min-height: 650px;
+    min-height: 700px;
     background-color: hwb(0 0% 100%);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .page3img{
-    width: 600px;
+    width: 80vh;
     background-image: url(../../Assets/homefour.jpeg);
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 550px;
     margin-top: 120px;
     margin-left: 25px;
 }
 .page3form{
     margin-top: 120px;
-    width: 650px ;
-    height: 450px;
+    width:90vh ;
+    height: 550px;
     background-color: #212529;
 }
 .page3p1{
@@ -123,6 +125,8 @@ h1{
     min-height: 600px;
     background-color:hwb(0 0% 100%);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .page4 h1{
     color: white;
@@ -134,7 +138,6 @@ h1{
     font-size: 20px;
 }
 .page4text{
-    margin-left: 140px;
     margin-top: 170px;
 }
 .page4img{
@@ -157,10 +160,11 @@ h1{
     width: 100%;
     min-height: 500px;
     padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }  
-.page5tittle{
-  padding-left: 500px;
-}
 .page5tittle p{
     color: white;
     background-color:#C7A17A ;
@@ -183,11 +187,10 @@ h1{
     text-align: center; 
 }
 .page5people{
-    padding-top: 35px;
-    padding-left: 35px;
-}
-.page5logo{
-    padding-left: 48%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: column;
 }
 .p1{
     font-size: 20px;
@@ -200,8 +203,80 @@ h1{
     text-align: center;
 }
 
+.page6{
+    background:linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url(../../Assets/page5background.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mapimg{
+    width: 600px;
+    background-image: url(../../Assets/map.png);
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+    margin-top: 120px;
+    margin-left: 25px;
+}
+.page6form{
+    width: 50%;
+    height: 460px;
+    background-color: #13131A;
+    margin-top: 120px;
+    border: 1px solid rgb(68, 54, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page6form p{
+    color:white;
+    background-color: #C7A17A;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+}
+.page6form h1{
+    color: white;
+    font-size:55px ;
+    text-align: center;
+}
+.page6form input{
+    color: white;
+    width: 80vh;
+    background-color:#09090D ;
+    padding: 20px;
+    margin-top: 25px;
+    
+    border: 1px solid rgb(68, 54, 75) ;
+}
 
 
+
+
+
+
+@media screen and (max-width: 1110px) {
+    .page6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mapimg{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    .page6form{
+        margin-top: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    
+}
 
 @media screen and (max-width: 1190px) {
     .page4img{
@@ -270,7 +345,6 @@ h1{
     padding-left: 5px;
  }
 }
-
 @media screen and (max-width: 1110px) {
     .page3{
         display: flex;

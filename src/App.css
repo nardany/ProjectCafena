@@ -14,17 +14,21 @@
 
 .NavBar1 {
   padding-top: 65px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .NavBar2 {
   padding-top: 65px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .NavBar1 a {
   font-size: 17px;
   text-decoration: none;
   color: white;
-  padding-left: 50px;
+  margin-left: 100px;
   font-family: 'Jost', sans-serif;
   text-transform: uppercase;
 }
@@ -33,7 +37,7 @@
   font-size: 17px;
   text-decoration: none;
   color: white;
-  padding-left: 130px;
+  padding-left: 100px;
   font-family: 'Jost', sans-serif;
   text-transform: uppercase;
 }
@@ -44,7 +48,6 @@
 
 .logo {
   padding-top: 30px;
-  padding-left: 137px;
 }
 
 @media screen and (max-width:1300px) {

@@ -1,7 +1,7 @@
 import "../Home/home.css";
 import page4 from "../../Assets/page4.png";
 import page5png from "../../Assets/page5.png";
-import page5logo from "../../Assets/page5logo.png"
+import page5logo from "../../Assets/page5logo.png";
 
 export default function () {
   return (
@@ -107,9 +107,24 @@ export default function () {
           </p>
         </div>
         <div className="page5people">
-        <img src={page5logo} alt="page5logo" className="page5logo" />
-        <p className="p1">RASALINA DE WILLAMSON</p>
-        <p className="p2">FOUNDER & Co</p>
+          <img src={page5logo} alt="page5logo" className="page5logo" />
+          <p className="p1">RASALINA DE WILLAMSON</p>
+          <p className="p2">FOUNDER & Co</p>
+        </div>
+      </div>
+
+      <div className="page6">
+        <div className="mapimg">
+
+        </div>
+        <div className="page6form">
+              <p>Reservation</p>
+              <h1>BOOKING A TABLE</h1>
+              <input type="text" placeholder="4 Person"/>
+              <br />
+              <input type="text" placeholder="12.2.2021"/>
+              <br />
+              <input type="text" placeholder="11:00 PM"/>
         </div>
       </div>
     </div>
