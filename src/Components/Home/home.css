@@ -221,6 +221,13 @@ h1{
     height: 460px;
     margin-top: 120px;
     margin-left: 25px;
+    opacity: 0.8;
+    transition: 1s;
+}
+.mapimg:hover{
+    opacity: 1;
+    transform: scale(0.9);
+    transition: 1s;
 }
 .page6form{
     width: 50%;
@@ -252,11 +259,61 @@ h1{
     margin-top: 25px;
     border: 1px solid rgb(68, 54, 75) ;
 }
-
-
-
-
-
+.page7{
+    width: 100%;
+    min-height: 700px;
+    background:linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url(../../Assets/page5background.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-top: 2px solid saddlebrown;
+    display: flex;
+    flex-direction: column;
+}
+.page7text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.page7text p{
+    color: white;
+    background-color: #C7A17A;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+.page7text h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 100;
+}
+.page7photo{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.page7photo1{
+    background-image: url(../../Assets/blog-1.jpeg);
+    width: 350px;
+    min-height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.page7photo2{
+    background-image: url(../../Assets/blog-2.jpeg);
+    width: 350px;
+    min-height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.page7photo3{
+    background-image: url(../../Assets/blog-3.jpeg);
+    width:350px;
+    min-height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 @media screen and (max-width: 1110px) {
     .page6{

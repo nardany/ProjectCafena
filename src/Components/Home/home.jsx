@@ -127,6 +127,30 @@ export default function () {
               <input type="text" placeholder="11:00 PM"/>
         </div>
       </div>
+      <div className="page7">
+         <div className="page7text">
+            <p>FROM OUR BLOG</p>
+            <h1>OUR NEWS & ARTICLES</h1>
+         </div>
+         <div className="page7photo">
+          <div className="photo1contaioner">
+          <div className="page7photo1">
+
+          </div>
+            <p>hello</p>
+          </div>
+          <div className="photo2container">
+          <div className="page7photo2">
+
+          </div>
+          </div>
+          <div className="photo3contaioner">
+          <div className="page7photo3">
+
+          </div>
+          </div>
+         </div>
+      </div>
     </div>
   );
 }
