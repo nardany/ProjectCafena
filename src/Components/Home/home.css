@@ -261,11 +261,10 @@ h1{
 }
 .page7{
     width: 100%;
-    min-height: 700px;
+    min-height: 600px;
     background:linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url(../../Assets/page5background.jpeg);
     background-size: cover;
     background-position: center;
-    border-top: 2px solid saddlebrown;
     display: flex;
     flex-direction: column;
 }
@@ -299,6 +298,12 @@ h1{
     min-height: 250px;
     background-size: 100%;
     background-repeat: no-repeat;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 .page7photo2{
     background-image: url(../../Assets/blog-2.jpeg);
@@ -306,6 +311,12 @@ h1{
     min-height: 250px;
     background-size: 100%;
     background-repeat: no-repeat;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 .page7photo3{
     background-image: url(../../Assets/blog-3.jpeg);
@@ -313,7 +324,64 @@ h1{
     min-height: 250px;
     background-size: 100%;
     background-repeat: no-repeat;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
+.page7photo1:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.page7photo2:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.page7photo3:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.containerphoto{
+    display: flex;
+    justify-content: space-around;
+}
+.cotaniner1{
+    width: 350px;
+    min-height: 150px;
+}
+.cotaniner1 p {
+    color:#A7A7A7;
+    font-weight: 200;
+    text-align: center;
+}
+.cotaniner1 h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+}
+.cotaniner1 h2{
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: 200;
+    opacity: 0.8;   
+}
+.cotaniner1 h2:hover{
+    opacity: 1;
+}
+
+
+
 
 @media screen and (max-width: 1110px) {
     .page6{
@@ -331,7 +399,13 @@ h1{
         margin-right: 10px;
         width: 100%;
     }
-    
+    .page7photo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .containerphoto{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1190px) {

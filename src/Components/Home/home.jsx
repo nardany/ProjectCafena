@@ -114,43 +114,54 @@ export default function () {
       </div>
 
       <div className="page6">
-        <div className="mapimg">
-
-        </div>
+        <div className="mapimg"></div>
         <div className="page6form">
-              <p>Reservation</p>
-              <h1>BOOKING A TABLE</h1>
-              <input type="text" placeholder="4 Person"/>
-              <br />
-              <input type="text" placeholder="12.2.2021"/>
-              <br />
-              <input type="text" placeholder="11:00 PM"/>
+          <p>Reservation</p>
+          <h1>BOOKING A TABLE</h1>
+          <input type="text" placeholder="4 Person" />
+          <br />
+          <input type="text" placeholder="12.2.2021" />
+          <br />
+          <input type="text" placeholder="11:00 PM" />
         </div>
       </div>
+
       <div className="page7">
-         <div className="page7text">
-            <p>FROM OUR BLOG</p>
-            <h1>OUR NEWS & ARTICLES</h1>
-         </div>
-         <div className="page7photo">
-          <div className="photo1contaioner">
-          <div className="page7photo1">
-
+        <div className="page7text">
+          <p>FROM OUR BLOG</p>
+          <h1>OUR NEWS & ARTICLES</h1>
+        </div>
+        <div className="page7photo">
+          <div className="page7photo1"></div>
+          <div className="page7photo2"></div>
+          <div className="page7photo3"></div>
+        </div>
+        <div className="containerphoto">
+          <div className="cotaniner1">
+            <p>BY: RASALINA\LIFE\23.01.2017</p>
+            <h1>
+              Ideal Cocktails From Our Barmen <br /> For Pefect Mood
+            </h1>
+            <h2>READ MORE</h2>
           </div>
-            <p>hello</p>
+          <div className="cotaniner1">
+            <p>BY: RASALINA\LIFE\23.01.2017</p>
+            <h1>
+              Build A Cool Mornig With <br /> Cafena Coffee
+            </h1>
+            <h2>READ MORE</h2>
           </div>
-          <div className="photo2container">
-          <div className="page7photo2">
-
+          <div className="cotaniner1">
+            <p>BY: RASALINA\LIFE\23.01.2017</p>
+            <h1>
+              Questions Business Must Be Able <br /> To Answers
+            </h1>
+            <h2>READ MORE</h2>
           </div>
-          </div>
-          <div className="photo3contaioner">
-          <div className="page7photo3">
-
-          </div>
-          </div>
-         </div>
+        </div>
       </div>
+
+      
     </div>
   );
 }
