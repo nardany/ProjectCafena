@@ -2,6 +2,16 @@ import "../Home/home.css";
 import page4 from "../../Assets/page4.png";
 import page5png from "../../Assets/page5.png";
 import page5logo from "../../Assets/page5logo.png";
+import phoneicon from "../../Assets/phoneicon.png";
+import mapicon from "../../Assets/mapicon.png";
+import logo from "../../Assets/cafeanalogo.png";
+import { FaTwitter } from 'react-icons/fa';
+import { FaFacebookF } from 'react-icons/fa';
+import { FaYoutube } from 'react-icons/fa';
+import { FaGooglePlusG } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+
+
 
 export default function () {
   return (
@@ -161,7 +171,44 @@ export default function () {
         </div>
       </div>
 
-      
+      <div className="page8">
+        <div className="page8one">
+          <p>
+            <img src={phoneicon} alt="phoneicon" />
+            <strong>PHONE :</strong>+88019 339 702 520
+          </p>
+          <p>
+            <img src={mapicon} alt="mapicon" />
+            <strong>ADDRESS :</strong>30 North West New
+          </p>
+          <div className="inputcontainer">
+            <input
+              type="text"
+              className="page8input"
+              placeholder="Enter your email"
+            />
+            <button className="page8button">Subsrcibe</button>
+          </div>
+        </div>
+        <div className="page8two">
+          <div className="iconandtext">
+          <img src={logo} alt="logo" className="logopage8" />
+            <p className="page8p">
+              Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut
+              quam quis quam <br />
+              venenatis fringilla. Morbi vestibulum
+            </p>
+            
+        <div className="icon">                
+              <a href="" ><i><FaTwitter/></i></a>   
+              <a href=""><i><FaFacebookF/></i></a>
+              <a href=""><i><FaYoutube/></i></a>
+              <a href=""><i><FaGooglePlusG/></i></a>
+              <a href=""><i><FaInstagram/></i></a>            
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
