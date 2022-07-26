@@ -1,4 +1,4 @@
-import "../About/about.css";
+import "../About/About.css";
 import line from "../../Assets/gic.png"
 
 

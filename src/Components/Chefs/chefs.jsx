@@ -1,4 +1,4 @@
-import "../Chefs/chefs.css";
+import "../Chefs/Chefs.css";
 import line from "../../Assets/gic.png"
 
 

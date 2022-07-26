@@ -1,76 +1,84 @@
-.NavBar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 160px;
-    background-color: #080808;
-    border-bottom: 1px solid white;
-  }
-  .NavBarContainer{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .NavBar1 {
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 160px;
+  background-color: #080808;
+  border-bottom: 1px solid white;
+}
+
+.homeNavbar {
+  background-color: white;
+}
+
+.homeNavbar a {
+  color: black !important;
+}
+
+.NavBarContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavBar1 {
   width: 35%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  }
-  
-  .NavBar2 {
-    width: 35%;
+}
+
+.NavBar2 {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavBar1 a {
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
+  transition: 1s;
+}
+
+.NavBar2 a {
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.NavBar a:hover {
+  color: #c7a17a;
+  transition: 0.5s;
+}
+
+.logo {
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+  .NavBar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: flex-start;
   }
-  
-  .NavBar1 a {
-    font-size: 17px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Jost', sans-serif;
-    text-transform: uppercase;
-    transition: 1s;
+  .NavBar1 {
+    display: none;
   }
-  
-  .NavBar2 a {
-    font-size: 17px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Jost', sans-serif;
-    text-transform: uppercase;
-    transition: 0.5s;
+
+  .NavBar2 {
+    display: none;
   }
-  
-  .NavBar a:hover {
-    color: #C7A17A;
-    transition: 0.5s;
-  }
-  
   .logo {
-    padding-top: 30px;
   }
-  
-  @media screen and (max-width:1300px) {
-    .NavBar{
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-    }
-    .NavBar1 {
-      display: none;
-    }
-  
-    .NavBar2 {
-      display: none;
-    }
-    .logo{
-  
-    }
-  }
+}

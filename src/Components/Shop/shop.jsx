@@ -1,4 +1,4 @@
-import "../Shop/shop.css";
+import "../Shop/Shop.css";
 import line from "../../Assets/gic.png"
 
 

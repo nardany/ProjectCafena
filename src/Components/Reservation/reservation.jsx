@@ -1,4 +1,4 @@
-import "../Reservation/reservation.css";
+import "../Reservation/Reservation.css";
 import line from "../../Assets/gic.png"
 
 

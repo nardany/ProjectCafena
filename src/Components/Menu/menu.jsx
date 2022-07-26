@@ -1,4 +1,4 @@
-import "../Menu/menu.css";
+import "../Menu/Menu.css";
 import line from "../../Assets/gic.png"
 
 

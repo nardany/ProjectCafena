@@ -1,4 +1,4 @@
-import "../Contact/contact.css";
+import "../Contact/Contact.css";
 import line from "../../Assets/gic.png"
 
 
