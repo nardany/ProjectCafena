@@ -5,12 +5,12 @@ import Home from "../../Components/Home/home"
 import About from "../../Components/About/about"
 import Menu from "../../Components/Menu/menu"
 import Reservation from "../../Components/Reservation/reservation" 
-import Pages from "../../Components/Pages/pages"
+import Chefs from "../../Components/Chefs/chefs"
 import Shop from "../../Components/Shop/shop"
 import Contact from "../../Components/Contact/contact"
 
 
-export default function() {
+export default function(props) {
   return (
     <div className="App">
       <BrowserRouter>
@@ -20,14 +20,14 @@ export default function() {
             <div className="NavBar1">
               <Link to="/">Home</Link>
               <Link to="/about">About </Link>
-              <Link to="/menu">Contact</Link>
+              <Link to="/menu">Menu</Link>
               <Link to="/reservation">Reservation</Link>
             </div>
             <div className="logo">
               <img src={Logo} />
             </div>
             <div className="NavBar2">
-              <Link to="/pages">Pages</Link>
+              <Link to="/chefs">Chefs</Link>
               <Link to="/shop">Shop </Link>
               <Link to="/contact">Contact</Link>
             </div>
@@ -38,7 +38,7 @@ export default function() {
             <Route path="/about" element={<About />} />
             <Route path="/menu" element={<Menu />} />
             <Route path="/reservation" element={<Reservation />} />
-            <Route path="/pages" element={<Pages />} />
+            <Route path="/chefs" element={<Chefs />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/contact" element={<Contact />} />
             <Route

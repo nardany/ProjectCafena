@@ -36,6 +36,7 @@
     color: white;
     font-family: 'Jost', sans-serif;
     text-transform: uppercase;
+    transition: 1s;
   }
   
   .NavBar2 a {
@@ -44,10 +45,12 @@
     color: white;
     font-family: 'Jost', sans-serif;
     text-transform: uppercase;
+    transition: 0.5s;
   }
   
   .NavBar a:hover {
     color: #C7A17A;
+    transition: 0.5s;
   }
   
   .logo {

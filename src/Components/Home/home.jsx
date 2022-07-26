@@ -1,4 +1,4 @@
-import "../Home/home.css";
+import "./home.css";
 import page4 from "../../Assets/page4.png";
 import page5png from "../../Assets/page5.png";
 import page5logo from "../../Assets/page5logo.png";
