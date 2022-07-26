@@ -23,6 +23,25 @@ h1{
     padding-left: 10px;
     font-size: 19px;
 }
+.homepageicon{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.homepageicon a {
+    color: white;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+.homepageicon a:hover{
+    transition: 0.5s;
+    color:#C7A17A ;
+}
 .page2{
     width: 100%;
     min-height: 500px;
@@ -317,6 +336,7 @@ h1{
     justify-content: space-around;
 }
 .page7photo1{
+    border-radius: 25% 25% 35% 0%;
     background-image: url(../../Assets/blog-1.jpeg);
     width: 350px;
     min-height: 250px;
@@ -330,6 +350,7 @@ h1{
 	filter: grayscale(100%);
 }
 .page7photo2{
+    border-radius: 25% 25% 35% 0%;
     background-image: url(../../Assets/blog-2.jpeg);
     width: 350px;
     min-height: 250px;
@@ -343,6 +364,7 @@ h1{
 	filter: grayscale(100%);
 }
 .page7photo3{
+    border-radius: 25% 25% 35% 0%;
     background-image: url(../../Assets/blog-3.jpeg);
     width:350px;
     min-height: 250px;
@@ -360,18 +382,21 @@ h1{
 	transform: scale(1.2);
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
+    border-radius: 0% 25% 35% 35%;
 }
 .page7photo2:hover{
     -webkit-transform: scale(1.2);
 	transform: scale(1.2);
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
+    border-radius: 0% 25% 35% 35%;
 }
 .page7photo3:hover{
     -webkit-transform: scale(1.2);
 	transform: scale(1.2);
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
+    border-radius: 0% 25% 35% 35%;
 }
 .containerphoto{
     display: flex;
@@ -398,10 +423,13 @@ h1{
     font-size: 15px;
     color: white;
     font-weight: 200;
-    opacity: 0.8;   
+    opacity: 0.8;
+    transition: 2s;
 }
 .cotaniner1 h2:hover{
     opacity: 1;
+    transition: 2s;
+    text-decoration: underline;
 }
 .page8{
     background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../Assets/page5background.jpeg);
@@ -419,12 +447,21 @@ h1{
 .page8 p {
     color: white;
 }
+.mapicon{
+    display: flex;
+    align-items: center;
+}
+.phoneicon{
+    display: flex;
+    align-items: center;
+}
 .page8input{
     background-image: url(../../Assets/page5background.jpeg);
     border: none;
     border-bottom: 1px solid white;
     width: 22vw;
     padding: 5px;
+    color: white;
 }
 .page8button{
     background-color: #09090D;
@@ -434,6 +471,7 @@ h1{
 .twitter{
     color: white;
 }
+
 .iconandtext{
     display: flex;
     justify-content: space-around;
@@ -443,8 +481,7 @@ h1{
 .icon i {
     margin-right: 10px;
     color: rgba(155, 159, 159, 0.485);
-    border: 1px solid rgba(155, 159, 159, 0.485);
-    padding: 8px;
+    padding:5px;
     transition: 1s;
 }
 .icon i:hover{
@@ -469,13 +506,6 @@ h1{
         display: none;
     }
 }
-
-
-
-
-
-
-
 
 @media screen and (max-width: 1110px) {
     .page6{
@@ -575,6 +605,7 @@ h1{
     display: none;
  }
 }
+
 @media screen and (max-width: 1110px) {
     .page3{
         display: flex;

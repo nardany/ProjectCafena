@@ -30,6 +30,20 @@ export default function () {
             coals in a brazier. given an opportunity to sample.
           </p>
         </div>
+        <div className="homepageicon">
+              <a href="" >
+                <FaTwitter/>
+                <span>Twitter</span>
+                </a>   
+              <a href="">
+                <FaFacebookF/>
+               <span>Facebook</span>
+                </a>
+              <a href="">
+                <FaYoutube/>
+                <span>Youtube</span>
+                </a>
+        </div>
       </div>
 
       <div className="page2">
@@ -173,14 +187,18 @@ export default function () {
 
       <div className="page8">
         <div className="page8one">
+          <div className="phoneicon">
+          <img src={phoneicon} alt="phoneicon" />
           <p>
-            <img src={phoneicon} alt="phoneicon" />
             <strong>PHONE :</strong>+88019 339 702 520
           </p>
+          </div>
+          <div className="mapicon">
+          <img src={mapicon} alt="mapicon" />
           <p>
-            <img src={mapicon} alt="mapicon" />
             <strong>ADDRESS :</strong>30 North West New
           </p>
+          </div>
           <div className="inputcontainer">
             <input
               type="text"
