@@ -4,18 +4,15 @@
   align-items: center;
   width: 100%;
   min-height: 160px;
-  background-color: #080808;
+  background-color: white;
   border-bottom: 1px solid white;
 }
-
-.homeNavbar {
-  background-color: white;
+.homePageNavbar{
+  background-color: black;
 }
-
-.homeNavbar a {
-  color: black !important;
+.homePageNavbar a{
+ color: white !important;
 }
-
 .NavBarContainer {
   width: 70%;
   display: flex;
@@ -25,36 +22,23 @@
 }
 
 .NavBar1 {
-  width: 35%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 100%;
 }
 
-.NavBar2 {
+.navItems {
   width: 35%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.NavBar1 a {
+.navItems a {
   font-size: 17px;
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: "Jost", sans-serif;
   text-transform: uppercase;
   transition: 1s;
-}
-
-.NavBar2 a {
-  font-size: 17px;
-  text-decoration: none;
-  color: white;
-  font-family: "Jost", sans-serif;
-  text-transform: uppercase;
-  transition: 0.5s;
 }
 
 .NavBar a:hover {
@@ -66,19 +50,18 @@
   padding-top: 30px;
 }
 
+.navHamburger {
+  display: none;
+}
+
 @media screen and (max-width: 1300px) {
   .NavBar {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: flex-start;
   }
-  .NavBar1 {
+  .navItems {
     display: none;
-  }
-
-  .NavBar2 {
-    display: none;
-  }
-  .logo {
   }
 }

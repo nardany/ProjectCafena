@@ -1,4 +1,4 @@
-import "../Navbar/navbar.css";
+import "../Navbar/Navbar.css";
 import {
   BrowserRouter,
   Routes,
@@ -10,11 +10,10 @@ import Logo from "../../Assets/cafeanalogo.png";
 
 export default function () {
   const location = useLocation();
-  console.log(location.pathname)
   return (
-    <div className={location.pathname !== '/' ? 'navbar homeNavbar' : 'navbar '}>
+    <div className={location.pathname !== '/' ? 'navbar' : 'navbar homePageNavbar '}>
       <div className="NavBarContainer">
-        <div className="NavBar1">
+        <div className="NavBar1 navItems">
           <Link to="/">Home</Link>
           <Link to="/about">About </Link>
           <Link to="/menu">Menu</Link>
@@ -23,12 +22,12 @@ export default function () {
         <div className="logo">
           <img src={Logo} />
         </div>
-        <div className="NavBar2">
+        <div className="NavBar2 navItems">
           <Link to="/chefs">Chefs</Link>
           <Link to="/shop">Shop </Link>
           <Link to="/contact">Contact</Link>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
