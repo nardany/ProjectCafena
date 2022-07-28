@@ -92,6 +92,11 @@
     background-color: black;
     color: white;
 }
+.page2text:hover .page2icon{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
 .page3about{
     width: 100%;
     min-height: 700px;
@@ -153,14 +158,173 @@
     background-color: white;
     border:1px solid #E2DFDD;
     color:#A7A7A7 ;
+    border-radius: 5px;
 }
 .buttoncontainer{
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
+.container:hover .page3button{
+    transition: 0.5s;
+    background-color: #C7A17A;
+    color: white;
+}
+.page4about{
+    width: 100%;
+    min-height: 750px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+.page4tittleabout{
+    margin-top: 50px;
+}
+.page4tittleabout{
+    background-color: #C7A17A;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.page4textabout{
+    font-size: 50px;
+    font-weight: 200;
+}
+.containerpeople{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.people{
+    width: 376px;
+    height:425px;
+    border: 1px solid #E2DFDD;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.people img{
+    width: 318px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 25% 25% 25% 0%;
+    transition: 0.5s;
+}
+.people img:hover{
+    transition: 0.5s;
+    border-radius: 0% 25% 25% 25%;
+}
+.peoplename{
+    font-size: 20px;
+}
+.experience{
+    color: #C7A17A;
+}
+.peopleSoicalNetwork{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.peopleSoicalNetwork a{
+    color:#A7A7A7 ;
+    border: 1px solid;
+    padding: 8px;
+    margin-left: 5px;
+}
+.peopleSoicalNetwork a:hover{
+    border: 1px solid black;
+}
 
 
+.page5about{
+    background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../Assets/page5background.jpeg);
+    background-size: cover;
+    background-position: center;;
+    width: 100%;
+    min-height: 250px;
+}
+.page5one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+}
+.page5pabout {
+    color: white;
+}
+.mapiconabout{
+    display: flex;
+    align-items: center;
+}
+.phoneiconabout{
+    display: flex;
+    align-items: center;
+}
+.page5inputabout{
+    background-image: url(../../Assets/page5background.jpeg);
+    border: none;
+    border-bottom: 1px solid white;
+    width: 22vw;
+    padding: 5px;
+    color: white;
+}
+.page5one p{
+    color: white;
+}
+.page5buttonabout{
+    background-color: #09090D;
+    color: white;
+    cursor: pointer;
+}
+.twitter{
+    color: white;
+}
+
+.iconandtextabout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.iconabout i {
+    margin-right: 10px;
+    color: rgba(155, 159, 159, 0.485);
+    padding:5px;
+    transition: 1s;
+}
+.iconabout i:hover{
+    color: white;
+    border: 1px solid white;
+    transition: 1s;
+}
+.iconabout{
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .page5inputabout{
+        display: none;
+    }
+    .page5buttonabout{
+        display: none;
+    }
+    .iconandtextabout{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .page5twoabout img{
+        display: none;
+    }
+}
 
 
 @media screen and (max-width: 1180px) {
@@ -189,4 +353,24 @@
         width: 100%;
         margin-left: 0px;
     }
+}
+@media screen and (max-width: 1200px) {
+        .page3container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container{
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+        .containerpeople{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .page4textabout{
+            text-align: center;
+        }
+        .people{
+            margin-top: 10px;
+        }
 }

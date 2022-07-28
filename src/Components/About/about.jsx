@@ -6,6 +6,20 @@ import { FaCheck } from "react-icons/fa";
 import icon1 from "../../Assets/AboutPage/icon1.png"
 import icon2 from "../../Assets/AboutPage/icon2.png"
 import {FaLongArrowAltRight} from "react-icons/fa";
+import people1 from "../../Assets/AboutPage/people1.jpeg"
+import people2 from "../../Assets/AboutPage/people2.jpeg"
+import { FaTwitter } from 'react-icons/fa';
+import { FaFacebookF } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaYoutube} from 'react-icons/fa';
+import {FaGooglePlusG} from "react-icons/fa"
+import phoneicon from "../../Assets/phoneicon.png";
+import mapicon from "../../Assets/mapicon.png";
+import logo from "../../Assets/cafeanalogo.png";
+
+
+
+
 
 export default function () {
   return (
@@ -43,29 +57,29 @@ export default function () {
           <ul className="checkul">
             <li>
               <span>
-                <i>
+                <i className="page2icon">
                   <FaCheck />
                 </i>
               </span>
-             <p> What is Lorem Ipsum Lorem Ipsum is simply.</p>
+             <p className="page2text"> What is Lorem Ipsum Lorem Ipsum is simply.</p>
             </li>
             <li>
               <span>
-                <i>
+                <i className="page2icon">
                   <FaCheck />
                 </i>
               </span>
-              <p>
+              <p className="page2text">
               Dummy text of the printing text.
               </p>
             </li>
             <li>
               <span>
-                <i>
+                <i className="page2icon">
                   <FaCheck />
                 </i>
               </span>
-              <p>
+              <p className="page2text">
               Typesetting industry Lorem Ipsum has been the industry's
               </p>
             </li>
@@ -89,7 +103,7 @@ export default function () {
                     tellus mmodo mattis. Aliquam erat <br />
                     volutpat. Aenean accumsany.</p>
                     <div className="buttoncontainer">
-                    <button><FaLongArrowAltRight/></button>
+                    <button className="page3button"><FaLongArrowAltRight/></button>
                     </div>
             </div>
             <div className="container2 container">
@@ -101,7 +115,7 @@ export default function () {
                     tellus mmodo mattis. Aliquam erat <br />
                     volutpat. Aenean accumsany.</p>
                     <div className="buttoncontainer">
-                    <button><FaLongArrowAltRight/></button>
+                    <button className="page3button"><FaLongArrowAltRight/></button>
                     </div>
             </div>
             <div className="container3 container">
@@ -113,11 +127,112 @@ export default function () {
                     tellus mmodo mattis. Aliquam erat <br />
                     volutpat. Aenean accumsany.</p>
                     <div className="buttoncontainer">
-                    <button><FaLongArrowAltRight/></button>
+                    <button className="page3button"><FaLongArrowAltRight/></button>
                     </div>
             </div>
         </div>
       </div>
+
+      <div className="page4about">
+          <p className="page4tittleabout">OUR CHEF</p>
+          <h1 className="page4textabout">MEET OUR PROFESSIONAL</h1>
+          <div className="containerpeople">
+            <div className="people1 people">
+                <img src={people1} alt="" />
+                <p className="peoplename">RASALINA DE WILLAMSON</p>
+                <p className="experience">12 YEAR EXPERIENCE</p>
+                <div className="peopleSoicalNetwork">
+                  <a href="">
+                    <FaTwitter/>
+                  </a>
+                  <a href="">
+                    <FaFacebookF/>
+                  </a>
+                  <a href="">
+                  <FaInstagram/>
+                  </a>
+                </div>
+            </div>
+            <div className="people2 people">
+                <img src={people2} alt="" />
+                <p className="peoplename">ALEXTINA JIMIEY</p>
+                <p className="experience">09 YEAR EXPERIENCE</p>
+                <div className="peopleSoicalNetwork">
+                  <a href="">
+                  <FaTwitter/>
+                  </a>
+                  <a href="">
+                  <FaFacebookF/>
+                  </a>
+                  <a href=""> 
+                  <FaInstagram/>
+                  </a>
+                </div>
+            </div>
+            <div className="people3 people">
+                <img src={people1} alt="" />
+                <p className="peoplename">JIMMEY AENDERSON</p>
+                <p className="experience">05 YEAR EXPERIENCE</p>
+                <div className="peopleSoicalNetwork">
+                  <a href="">
+                  <FaTwitter/>
+                  </a>
+                  <a href="">
+                  <FaFacebookF/>
+                  </a>
+                  <a href="">
+                  <FaInstagram/>
+                  </a>
+                </div>
+            </div>
+          </div>
+      </div>
+
+
+      <div className="page5about">
+        <div className="page5one">
+          <div className="phoneiconabout">
+          <img src={phoneicon} alt="phoneicon" />
+          <p>
+            <strong>PHONE :</strong>+88019 339 702 520
+          </p>
+          </div>
+          <div className="mapiconabout">
+          <img src={mapicon} alt="mapicon" />
+          <p>
+            <strong>ADDRESS :</strong>30 North West New
+          </p>
+          </div>
+          <div className="inputcontainerabout">
+            <input
+              type="text"
+              className="page5inputabout"
+              placeholder="Enter your email"
+            />
+            <button className="page5buttonabout">Subsrcibe</button>
+          </div>
+        </div>
+        <div className="page5twoabout">
+          <div className="iconandtextabout">
+          <img src={logo} alt="logo" className="logopage5about" />
+            <p className="page5pabout">
+              Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut
+              quam quis quam <br />
+              venenatis fringilla. Morbi vestibulum
+            </p>
+            
+        <div className="iconabout">                
+              <a href=""><i><FaTwitter/></i></a>   
+              <a href=""><i><FaFacebookF/></i></a>
+              <a href=""><i><FaYoutube/></i></a>
+              <a href=""><i><FaGooglePlusG/></i></a>
+              <a href=""><i><FaInstagram/></i></a>            
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   );
 }
