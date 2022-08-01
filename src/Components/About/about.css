@@ -230,102 +230,15 @@
 }
 .peopleSoicalNetwork a{
     color:#A7A7A7 ;
-    border: 1px solid;
+    border: 1px solid #E2DFDD;
     padding: 8px;
     margin-left: 5px;
+    border-radius: 5px;
 }
 .peopleSoicalNetwork a:hover{
     border: 1px solid black;
+    color: black;
 }
-
-
-.page5about{
-    background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../Assets/page5background.jpeg);
-    background-size: cover;
-    background-position: center;;
-    width: 100%;
-    min-height: 250px;
-}
-.page5one{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 5px;
-}
-.page5pabout {
-    color: white;
-}
-.mapiconabout{
-    display: flex;
-    align-items: center;
-}
-.phoneiconabout{
-    display: flex;
-    align-items: center;
-}
-.page5inputabout{
-    background-image: url(../../Assets/page5background.jpeg);
-    border: none;
-    border-bottom: 1px solid white;
-    width: 22vw;
-    padding: 5px;
-    color: white;
-}
-.page5one p{
-    color: white;
-}
-.page5buttonabout{
-    background-color: #09090D;
-    color: white;
-    cursor: pointer;
-}
-.twitter{
-    color: white;
-}
-
-.iconandtextabout{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 20px;
-}
-.iconabout i {
-    margin-right: 10px;
-    color: rgba(155, 159, 159, 0.485);
-    padding:5px;
-    transition: 1s;
-}
-.iconabout i:hover{
-    color: white;
-    border: 1px solid white;
-    transition: 1s;
-}
-.iconabout{
-    padding-top: 15px;
-}
-
-
-
-
-
-
-
-@media screen and (max-width: 850px) {
-    .page5inputabout{
-        display: none;
-    }
-    .page5buttonabout{
-        display: none;
-    }
-    .iconandtextabout{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .page5twoabout img{
-        display: none;
-    }
-}
-
 
 @media screen and (max-width: 1180px) {
         .page2about{

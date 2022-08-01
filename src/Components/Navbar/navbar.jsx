@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Logo from "../../Assets/cafeanalogo.png";
 
+
 export default function () {
   const location = useLocation();
   return (
@@ -24,7 +25,7 @@ export default function () {
         </div>
         <div className="NavBar2 navItems">
           <Link to="/chefs">Chefs</Link>
-          <Link to="/shop">Shop </Link>
+          <Link to="/shop">Shop</Link>
           <Link to="/contact">Contact</Link>
         </div>
       </div>

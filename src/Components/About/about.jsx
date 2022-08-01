@@ -8,15 +8,11 @@ import icon2 from "../../Assets/AboutPage/icon2.png"
 import {FaLongArrowAltRight} from "react-icons/fa";
 import people1 from "../../Assets/AboutPage/people1.jpeg"
 import people2 from "../../Assets/AboutPage/people2.jpeg"
+import Fotter from "../Fotter/fotter"
 import { FaTwitter } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaYoutube} from 'react-icons/fa';
-import {FaGooglePlusG} from "react-icons/fa"
-import phoneicon from "../../Assets/phoneicon.png";
-import mapicon from "../../Assets/mapicon.png";
-import logo from "../../Assets/cafeanalogo.png";
-
 
 
 
@@ -187,52 +183,7 @@ export default function () {
             </div>
           </div>
       </div>
-
-
-      <div className="page5about">
-        <div className="page5one">
-          <div className="phoneiconabout">
-          <img src={phoneicon} alt="phoneicon" />
-          <p>
-            <strong>PHONE :</strong>+88019 339 702 520
-          </p>
-          </div>
-          <div className="mapiconabout">
-          <img src={mapicon} alt="mapicon" />
-          <p>
-            <strong>ADDRESS :</strong>30 North West New
-          </p>
-          </div>
-          <div className="inputcontainerabout">
-            <input
-              type="text"
-              className="page5inputabout"
-              placeholder="Enter your email"
-            />
-            <button className="page5buttonabout">Subsrcibe</button>
-          </div>
-        </div>
-        <div className="page5twoabout">
-          <div className="iconandtextabout">
-          <img src={logo} alt="logo" className="logopage5about" />
-            <p className="page5pabout">
-              Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut
-              quam quis quam <br />
-              venenatis fringilla. Morbi vestibulum
-            </p>
-            
-        <div className="iconabout">                
-              <a href=""><i><FaTwitter/></i></a>   
-              <a href=""><i><FaFacebookF/></i></a>
-              <a href=""><i><FaYoutube/></i></a>
-              <a href=""><i><FaGooglePlusG/></i></a>
-              <a href=""><i><FaInstagram/></i></a>            
-            </div>
-          </div>
-        </div>
-      </div>
-
-
+          <Fotter/>
     </div>
   );
 }

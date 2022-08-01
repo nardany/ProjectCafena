@@ -1,0 +1,84 @@
+.fotter{
+    background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../../Assets/page5background.jpeg);
+    background-size: cover;
+    background-position: center;;
+    width: 100%;
+    min-height: 250px;
+}
+.fotteroneform{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 35px;
+}
+.phoneiconfotter{
+    display: flex;
+    align-items: center;
+}
+.mapiconfotter{
+    display: flex;
+    align-items: center;
+}
+.fotterinputabout{
+    background-image: url(../../Assets/page5background.jpeg);
+    border: none;
+    border-bottom: 1px solid white;
+    width: 22vw;
+    padding: 5px;
+    color: white;
+}
+.fotteroneform p{
+    color: white;
+}
+.fotterbutton{
+    background-color: #09090D;
+    color: white;
+    cursor: pointer;
+}
+.fottertext {
+    color: white;
+}
+.iconandtextfotter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.iconfotter i {
+    margin-right: 10px;
+    color: rgba(155, 159, 159, 0.485);
+    padding:5px;
+    transition: 1s;
+}
+.iconfotter i:hover{
+    color: white;
+    border: 1px solid white;
+    transition: 1s;
+}
+.iconfotter{
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 850px) {
+    .fotterinputabout{
+        display: none;
+    }
+    .fotterbutton{
+        display: none;
+    }
+    .iconandtextfotter{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fottertwoformt img{
+        display: none;
+    }
+}
+@media screen and (max-width: 490px){
+    .logofotter{
+        display: none;
+    }
+    .fotteroneform p{
+        font-size: 12px;
+    }
+}
