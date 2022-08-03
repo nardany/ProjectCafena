@@ -1,0 +1,125 @@
+.page1chefs{
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../Assets/reservation.jfif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.linechefs{
+    width: 100%;
+    position: absolute;
+}
+.textchefs1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 115px;
+}
+.textchefs1 h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 200;
+}
+.textchefs1 p{
+    color: white;
+}
+.textchefs1 p i{
+    color: #C7A17A;
+}
+
+
+.page2chefs{
+    width: 100%;
+    min-height: 1100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+.peoples1{
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+.peoples1 img{
+    border-radius: 25% 25% 25% 0%;
+    transition: 1s;
+}
+.peoples1 img:hover{
+    transition: 1s;
+    border-radius: 25% 0% 25% 25%;
+}
+.peoples2{
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.peoples2 img{
+    border-radius: 25% 0% 25% 25%;
+    transition: 1s;
+}
+.peoples2 img:hover{
+    transition: 1s;
+    border-radius: 25% 25% 25% 0%;
+}
+.peoplechefs{
+    width: 380px;
+    height: 450px;
+    border: 1px solid #E2DFDD;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+.peoplechefs img{
+    width: 318px;
+    height: 310px;
+    margin-top: 15px;
+    object-fit: cover;
+}
+.namechefs{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Bebas Neue", cursive;
+}
+.chefsexperience{
+    color: #C7A17A;
+}
+.chefsSoicalNetwork{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chefsSoicalNetwork a{
+    color:#A7A7A7 ;
+    border: 1px solid #E2DFDD;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.chefsSoicalNetwork a:hover{
+    border: 1px solid black;
+    color: black;
+}
+@media screen and (max-width: 1200px) {
+    .peoples1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .peoples2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .peoplechefs{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+}

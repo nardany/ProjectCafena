@@ -1,0 +1,289 @@
+.page1about{
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../Assets/reservation.jfif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.linepage1{
+    width: 100%;
+    position: absolute;
+}
+.linepage2{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.textpage8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 115px;
+}
+.textpage8 h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 200;
+}
+.textpage8 p{
+    color: white;
+}
+.page1i{
+    color: #C7A17A;
+}
+.page2about{
+    width: 100%;
+    min-height: 750px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.section-image{
+    position: relative;
+}
+.coffeeabout{
+    position: absolute;
+    top: 250px;
+    bottom: 0;
+    right: 0;
+    left: -500px;
+    margin: auto;
+}
+.div_2{
+    margin-left: 100px;
+}
+.div_2 .div_2_tittle_{
+    background-color: #C7A17A;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.div_2 h1{
+    font-size: 50px;
+    font-weight: 200;
+}
+.div_2 i{
+    color: #A7A7A7;
+}
+.div_2 ul{  
+    margin-top: 15px;
+}
+.div_2 ul li{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    list-style-type: none;
+}
+.div_2 ul li span i{
+    display: flex;
+    border-radius: 25% ;
+    border: 2px solid;
+    padding : 8px;
+}
+.div_2 ul li p{
+    padding-left: 15px;
+    font-size: 20px;
+}
+.div_2 ul li span i:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+.page2text:hover .page2icon{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+.page3about{
+    width: 100%;
+    min-height: 700px;
+}
+.page3text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.page3about .page3tittle{
+    margin-top: 25px;
+    text-align: center;
+    background-color: #C7A17A;
+    padding:5px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+}
+.page3about h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 400;
+}
+.page3container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container{
+    margin-left: 20px;
+    width: 376px;
+    height:417px;
+    border: 1px solid #E2DFDD;
+    border-radius: 10px;
+}
+.container h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Bebas Neue", cursive;
+    font-size: 30px;
+    font-weight: 200;
+}
+.container p{
+    margin-top: 25px;
+    text-align: center;
+    color: #A7A7A7;
+}
+.container button{
+    padding: 10px;
+    font-size: 15px;
+    background-color: white;
+    border:1px solid #E2DFDD;
+    color:#A7A7A7 ;
+    border-radius: 5px;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container:hover .page3button{
+    transition: 0.5s;
+    background-color: #C7A17A;
+    color: white;
+}
+.page4about{
+    width: 100%;
+    min-height: 750px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+.page4tittleabout{
+    margin-top: 50px;
+}
+.page4tittleabout{
+    background-color: #C7A17A;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.page4textabout{
+    font-size: 50px;
+    font-weight: 200;
+}
+.containerpeople{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.people{
+    width: 376px;
+    height:425px;
+    border: 1px solid #E2DFDD;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.people img{
+    width: 318px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 25% 25% 25% 0%;
+    transition: 0.5s;
+}
+.people img:hover{
+    transition: 0.5s;
+    border-radius: 0% 25% 25% 25%;
+}
+.peoplename{
+    font-size: 20px;
+}
+.experience{
+    color: #C7A17A;
+}
+.peopleSoicalNetwork{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.peopleSoicalNetwork a{
+    color:#A7A7A7 ;
+    border: 1px solid #E2DFDD;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.peopleSoicalNetwork a:hover{
+    border: 1px solid black;
+    color: black;
+}
+
+@media screen and (max-width: 1180px) {
+        .page2about{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .coffeeabout{
+            position: absolute;
+            top: 250px;
+            bottom: 0;
+            right: 0;
+            left: 350px;
+            margin: auto;
+        }
+}
+@media screen and (max-width: 700px) {
+    .coffeeabout{
+        display: none;
+    }
+    .coffeemen{
+        width: 100%;
+        height: auto;
+    }
+    .div_2{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 1200px) {
+        .page3container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container{
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+        .containerpeople{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .page4textabout{
+            text-align: center;
+        }
+        .people{
+            margin-top: 10px;
+        }
+}
