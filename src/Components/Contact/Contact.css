@@ -37,8 +37,11 @@
     align-items: center;
 }
 .form{
-    width: 1000px;
-    min-height: 700px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 600px;
     background-color: rgb(251, 251, 251);
     border: 1px solid #E2DFDD;
     display: flex;
@@ -81,63 +84,88 @@
 .inputform{
     display: flex;
     flex-direction: column;
+    max-width: 1000px;
     width: 100%;
-    min-height: 490px;
-    margin-top: 65px;
+    min-height: 350px;
+    padding-top: 80px;
 }
-.oneinputs{
+.inputform input{
+    width: 100%;
+    max-width: 400px;
+    height: 60px;
+    font-family:'Jost', sans-serif ;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid #E2DFDD;
+}
+.coupleinput{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 25px;
 }
-.oneinputs input{
-    width: 400px;
-    height: 50px;
-    border-radius: 5px;
-    border: 1px solid #E2DFDD ;
-    padding-left: 15px;
-    font-family: 'Jost', sans-serif;
+.subjectinput{
+    display: flex;
+    margin-left: 52px;
+    margin-top: 15px;
 }
-.twoinput{
-    margin-left: 65px;
-    margin-top: 30px;
+.subjectinput input{
+   max-width: 853px;
+   width: 100%;
 }
-.twoinput input{
-    width: 868px;
-    height: 50px;
-    border-radius: 5px;
-    border: 1px solid #E2DFDD ;
-    padding-left: 15px;
-    font-family: 'Jost', sans-serif;
-}
-.textarea{
-    margin-top: 30px;
-    margin-left: 65px;
-}
-.textarea textarea{
-    border: 1px solid #E2DFDD ;
-    padding-left: 15px;
-    padding-top: 15px;
-    font-family: 'Jost', sans-serif;
-}
-.buttonform{
+.buttonsend{
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 70px;
 }
-.buttonform button{
-    padding: 10px 15px;
-    font-family: 'Jost', sans-serif;
+.buttonsend button{
+    padding: 15px 35px;
     background-color: #C7A17A;
-    border: none;
     color: white;
+    border: none;
+    font-family:'Jost', sans-serif ;
     border-radius: 5px;
     cursor: pointer;
 }
+.gmap_iframe{
+    width: 100%;
+    height:500px!important;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    width:100%;
+    height:500px;
+}
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    width:100%;
+    height:500px;
+}
+
 @media screen and (max-width: 1020px){
     .iconform{
         display: flex;
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
 }
- 
+@media screen and (max-width: 1000px){
+    .inputform{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .coupleinput{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .coupleinput input{
+        margin-top: 15px;
+        max-width: 853px;
+        width: 100%;
+    }
+    .subjectinput{
+        margin-left: 0px;
+    }
+}
+  

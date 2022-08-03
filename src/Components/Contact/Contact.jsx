@@ -3,7 +3,7 @@ import line from "../../Assets/gic.png"
 import icon1 from "../../Assets/ContactPage/icon1.png"
 import icon2 from "../../Assets/ContactPage/icon2.png"
 import icon3 from "../../Assets/ContactPage/icon3.png"
-
+import Footer from "../Fotter/fotter"
     
 export default function (){
     return(
@@ -55,22 +55,29 @@ export default function (){
                         </div>
                     </div>
                     <div className="inputform">
-                        <div className="oneinputs">
-                            <input type="text" placeholder="Your name :" />
-                            <input type="email" placeholder="Your mail :" />
-                        </div>
-                        <div className="twoinput">
-                        <input type="text" placeholder="Enter Your Subject :" />
-                        </div>
-                        <div className="textarea">
-                        <textarea name="" id="" cols="139" rows="10" placeholder="Your Massage :"></textarea>
-                        </div>
-                        <div className="buttonform">
-                        <button>SEND MASSAGE</button>
-                        </div>
+                            <div className="coupleinput">
+                                <input type="text" placeholder="Your name:" />
+                                <input type="email" placeholder="Your Mail :" />
+                            </div>
+                            <div className="subjectinput">
+                                <input type="text" placeholder="Enter Your Subject :" />
+                            </div>
+                            <div className="buttonsend">
+                                <button>SEND MASSAGE</button>
+                            </div>
                     </div>
                 </div>
             </div>
+            <div className="mapouter">
+                <div className="gmap_canvas">
+                    <iframe className="gmap_iframe" src="https://maps.google.com/maps?width=675&amp;height=400&amp;hl=en&amp;q=Yerevan&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                    </iframe>
+                    <a href="https://embedmapgenerator.com/">
+                    embed google maps in website
+                    </a>
+                    </div>
+            </div>
+            <Footer/>
         </div>
     )
 }
