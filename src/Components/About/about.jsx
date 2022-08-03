@@ -12,8 +12,6 @@ import Fotter from "../Fotter/fotter"
 import { FaTwitter } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
-import { FaYoutube} from 'react-icons/fa';
-
 
 
 
