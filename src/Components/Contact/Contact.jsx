@@ -54,7 +54,7 @@ export default function (){
                             </div>
                         </div>
                     </div>
-                    <div className="inputform">
+                    <div className="contactInputForm">
                             <div className="coupleinput">
                                 <input type="text" placeholder="Your name:" />
                                 <input type="email" placeholder="Your Mail :" />
@@ -80,4 +80,4 @@ export default function (){
             <Footer/>
         </div>
     )
-}
+} 

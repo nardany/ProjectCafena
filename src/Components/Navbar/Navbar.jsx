@@ -18,14 +18,13 @@ export default function () {
           <Link to="/">Home</Link>
           <Link to="/about">About </Link>
           <Link to="/menu">Menu</Link>
-          <Link to="/reservation">Reservation</Link>
         </div>
         <div className="logo">
           <img src={Logo} />
         </div>
         <div className="NavBar2 navItems">
           <Link to="/chefs">Chefs</Link>
-          <Link to="/shop">Shop</Link>
+          <Link to="/reservation">Reservation</Link>
           <Link to="/contact">Contact</Link>
         </div>
       </div>

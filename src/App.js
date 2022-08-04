@@ -6,7 +6,6 @@ import NavBar from "./Components/Navbar/Navbar";
 import Menu from "./Components/Menu/Menu";
 import Reservation from "./Components/Reservation/Reservation";
 import Chefs from "./Components/Chefs/Chefs";
-import Shop from "./Components/Shop/Shop";
 import Contact from "./Components/Contact/Contact";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
             <Route path="/menu" element={<Menu />} />
             <Route path="/reservation" element={<Reservation />} />
             <Route path="/chefs" element={<Chefs />} />
-            <Route path="/shop" element={<Shop />} />
             <Route path="/contact" element={<Contact />} />
             <Route
               path="*"

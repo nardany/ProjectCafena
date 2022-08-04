@@ -22,7 +22,7 @@ export default function (){
                             <div className="form1">
                         <input type="text" name="name" placeholder="Enter your name"/>
                         <input type="tel" name="tel" className="tel" placeholder="Enter your number"/>
-                        </div>
+                            </div>
                         <div className="form2">
                         <select name="subject" className="subject">
                                                     <option>Seates*</option>
