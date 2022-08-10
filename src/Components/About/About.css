@@ -266,6 +266,9 @@
         width: 100%;
         margin-left: 0px;
     }
+    .people{
+        margin-left: 0px;
+    }
 }
 @media screen and (max-width: 1200px) {
         .page3container{

@@ -7,12 +7,13 @@ import {
   useLocation,
 } from "react-router-dom";
 import Logo from "../../Assets/cafeanalogo.png";
-
+import {useState} from "react"
 
 export default function () {
   const location = useLocation();
+
   return (
-    <div className={location.pathname !== '/' ? 'navbar' : 'navbar homePageNavbar '}>
+    <div className={location.pathname !== '/' ? 'navbar1' : 'navbar1 homePageNavbar ' } >
       <div className="NavBarContainer">
         <div className="NavBar1 navItems">
           <Link to="/">Home</Link>

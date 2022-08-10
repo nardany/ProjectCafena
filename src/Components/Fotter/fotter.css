@@ -81,4 +81,10 @@
     .fotteroneform p{
         font-size: 12px;
     }
+    .phoneiconfotter img{
+        display: none;
+    }
+    .mapiconfotter img{
+        display: none;
+    }
 }
