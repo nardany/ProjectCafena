@@ -1,5 +1,4 @@
 import "../About/About.css";
-import line from "../../Assets/gic.png";
 import coffeeabout from "../../Assets/AboutPage/aboutpagecoffee.png";
 import coffeemen from "../../Assets/AboutPage/aboutpagemen.png";
 import { FaCheck } from "react-icons/fa";
@@ -19,16 +18,15 @@ export default function () {
   return (
     <div className="AboutPage">
       <div className="page1about">
-        <img src={line} alt="line" className="linepage1" />
         <div className="textpage8">
           <h1>ABOUT CAFENA</h1>
           <p>
-            HOME/<i className="page1i"> ABOUT US</i>
+            HOME/<i className="page1i"> ABOUT US</i>  
           </p>
         </div>
       </div>
 
-      <div className="page2about">
+      <div className="page2about">          
         <div className="div_1">
           <div className="section-image">
             <img src={coffeemen} alt="" className="coffeemen" />

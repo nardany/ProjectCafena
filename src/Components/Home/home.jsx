@@ -2,9 +2,6 @@ import "./home.css";
 import page4 from "../../Assets/page4.png";
 import page5png from "../../Assets/page5.png";
 import page5logo from "../../Assets/page5logo.png";
-import phoneicon from "../../Assets/phoneicon.png";
-import mapicon from "../../Assets/mapicon.png";
-import logo from "../../Assets/cafeanalogo.png";
 import Fotter from "../Fotter/fotter"
 import { FaTwitter } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';

@@ -1,5 +1,4 @@
 import "../Chefs/Chefs.css";
-import line from "../../Assets/gic.png";
 import people1 from "../../Assets/People/people1.jpeg";
 import people2 from "../../Assets/People/people2.jpeg";
 import people3 from "../../Assets/People/people3.jpeg";
@@ -17,7 +16,6 @@ export default function () {
   return (
     <div className="ChefsPage">
       <div className="page1chefs">
-        <img src={line} alt="line" className="linechefs" />
         <div className="textchefs1">
           <h1>MEET OUR CHEFS</h1>
           <p>

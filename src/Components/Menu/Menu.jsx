@@ -1,5 +1,4 @@
 import "../Menu/Menu.css";
-import line from "../../Assets/gic.png"
 import coffee1 from "../../Assets/MenuPage/coffee1.png"
 import coffee2 from "../../Assets/MenuPage/coffee2.png"
 import coffee3 from "../../Assets/MenuPage/coffee3.png"
@@ -16,7 +15,6 @@ export default function (){
     return(
         <div className="MenuPage">
             <div className="page1menu">
-                <img src={line} alt="line" className="linemenu" />
                 <div className="textmenupage">
                 <h1>CAFEANA MENU</h1>
                 <p>HOME/<i> MENU</i></p>
